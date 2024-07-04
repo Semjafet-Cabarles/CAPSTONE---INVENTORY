@@ -1,0 +1,310 @@
+:root {
+    --color-blue: #568FFF;
+    --br-20: 20px;
+    --btn-width: 247px;
+    --btn-height: 67px;
+  }
+  
+  .frame-child,
+  .hardware {
+    align-self: stretch;
+    position: relative;
+  }
+  .frame-child {
+    width: 1028px;
+    box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-21xl);
+    background-color: var(--color-white);
+    display: none;
+    max-width: 100%;
+    z-index: 0;
+  }
+  .hardware {
+    z-index: 1;
+  }
+  .online-inventory-and {
+    position: relative;
+    font-weight: 300;
+    z-index: 1;
+  }
+  .online-inventory-and-stock-con-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 8px;
+  }
+  
+  .custom-button {
+    background-color: var(--color-blue);
+    border: none;
+    border-radius: var(--br-20);
+    width: var(--btn-width);
+    height: var(--btn-height);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+    font-size: var(--font-size-5xl);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .frame-container,
+  .frame-div {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-div {
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-10xs);
+  }
+  .frame-container {
+    flex-direction: column;
+    gap: 42px;
+  }
+  
+  .frame-wrapper1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-10xs);
+  }
+  
+  .frame-group,
+  .frame-parent1 {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .frame-parent1 {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    gap: 43px;
+  }
+  .frame-group {
+    width: 250px;
+    gap: 52px;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+  }
+  .frame-group,
+  .frame-parent,
+  .frame-wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+  .frame-parent {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 33px;
+  }
+  .frame-wrapper {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 29px;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--font-size-base);
+  }
+  .hardware-parent,
+  .manager {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .hardware-parent {
+    align-self: stretch;
+    align-items: flex-end;
+    gap: var(--gap-lg);
+  }
+  .manager {
+    width: 344px;
+    align-items: flex-start;
+    padding: 25px 0 0;
+    box-sizing: border-box;
+    min-width: 344px;
+  }
+  .facebook,
+  .rectangle-div {
+    background-color: var(--color-dodgerblue);
+  }
+  .facebook {
+    height: 100%;
+    width: 461px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--br-21xl);
+    z-index: 1;
+  }
+  .rectangle-div {
+    width: 395px;
+    height: 697px;
+    position: relative;
+    display: none;
+    max-width: 100%;
+  }
+  .welcome-to-website {
+    align-self: stretch;
+    position: relative;
+    z-index: 3;
+  }
+  .please-enter-your,
+  .welcome-to-the {
+    margin-block-start: 0;
+    margin-block-end: 11px;
+  }
+  .to-access-your {
+    margin: 0;
+  }
+  .welcome-to-the-container {
+    flex: 1;
+    position: relative;
+    font-weight: 300;
+    z-index: 3;
+  }
+  .first-page,
+  .login-info,
+  .rectangle-group,
+  .rectangle-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .login-info {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 37px;
+    font-size: var(--font-size-base);
+  }
+  .first-page,
+  .rectangle-group,
+  .rectangle-parent {
+    box-sizing: border-box;
+  }
+  .rectangle-group {
+    flex: 1;
+    background-color: var(--color-dodgerblue);
+    flex-direction: column;
+    padding: 108px 0 358px 51px;
+    gap: 35px;
+    min-width: 257px;
+    max-width: 100%;
+    z-index: 2;
+    color: var(--color-white);
+  }
+  .first-page,
+  .rectangle-parent {
+    position: relative;
+    flex-direction: row;
+  }
+  .rectangle-parent {
+    width: 1028px;
+    box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-21xl);
+    background-color: var(--color-white);
+    padding: 0 78px 0 65px;
+    gap: 146px;
+    max-width: 100%;
+  }
+  .first-page {
+    width: 100%;
+    background-color: #e9e9e9;
+    overflow: hidden;
+    padding: 186px 194px 141px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: var(--font-size-29xl);
+    color: var(--color-gray);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 1200px) {
+    .first-page {
+      padding-left: var(--padding-78xl);
+      padding-right: var(--padding-78xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .hardware {
+      font-size: var(--font-size-19xl);
+    }
+    .manager {
+      flex: 1;
+      min-width: 100%;
+    }
+    .welcome-to-website {
+      font-size: var(--font-size-19xl);
+    }
+    .rectangle-parent {
+      flex-wrap: wrap;
+      gap: 73px;
+      padding-left: 32px;
+      padding-right: 39px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .rectangle-group {
+      padding-top: 70px;
+      padding-bottom: 233px;
+      box-sizing: border-box;
+    }
+    .rectangle-parent {
+      gap: 36px;
+    }
+    .first-page {
+      padding-left: var(--padding-29xl);
+      padding-right: var(--padding-29xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .hardware {
+      font-size: var(--font-size-10xl);
+    }
+    .customer,
+    .store-personnel {
+      font-size: var(--font-size-lgi);
+    }
+    .frame-container {
+      gap: var(--gap-2xl);
+    }
+    .admin,
+    .warehouse-personnel {
+      font-size: var(--font-size-lgi);
+    }
+    .frame-parent1 {
+      gap: var(--gap-2xl);
+    }
+    .frame-group {
+      gap: 26px;
+    }
+    .frame-parent {
+      gap: 16px;
+    }
+    .welcome-to-website {
+      font-size: var(--font-size-10xl);
+    }
+    .rectangle-group {
+      gap: 17px;
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .rectangle-parent {
+      gap: var(--gap-lg);
+    }
+    .first-page {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  
